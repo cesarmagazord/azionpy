@@ -1,0 +1,18 @@
+site_name: Azionpy
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/git-alt
+  features:
+    - search.suggest
+repo_url: https://github.com/cesarmagazord/azionpy
+repo_name: cesarmagazord/azionpy
+plugins:
+  - search
+  - mkdocstrings
+nav:
+  - Home: index.md
+  - Code Reference:
+    - Azionpy: azionpy-reference.md
+    - Domain: domain-reference.md
+    - Digital Certificate: certificate-reference.md
