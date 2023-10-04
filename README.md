@@ -1,5 +1,7 @@
 # Azionpy
 
+[![ci](https://github.com/cesarmagazord/azionpy/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/cesarmagazord/azionpy/actions/workflows/ci.yml)
+
 Este pacote foi criado com o intuito de facilitar a comunicação com a API
 da Azion e permitir a criação e gerenciamentos dos recursos de uma forma 
 pythonica.
