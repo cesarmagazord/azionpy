@@ -76,10 +76,8 @@ class Azion:
                     response.extend(
                         self.__create_domain_from_api(data) for data in x['results']
                     )
-                    total = 5
                     page = page + 1
-                    # if page > x['total_pages']:
-                    if page > total:
+                    if page > x['total_pages']:
                         break
             except httpx.HTTPError as e:
                 raise InternalError(e)
@@ -110,10 +108,8 @@ class Azion:
                     response.extend(
                         self.__create_certificate_from_api(data) for data in x['results']
                     )
-                    total = 5
                     page = page + 1
-                    # if page > x['total_pages']:
-                    if page > total:
+                    if page > x['total_pages']:
                         break
             except httpx.HTTPError as e:
                 raise InternalError(e)
